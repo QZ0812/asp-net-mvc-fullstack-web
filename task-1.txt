@@ -1,0 +1,22 @@
+Store Software Download Requuests in DB
+
+1 - Locate the form of Software Update Request here: https://sestech.com/en/Download/SoftwareUpdates
+2 - Analyse the form content, know what attributes/properties we should save
+3 - Create a Model in a paper, simple Box with a name on top and Login properties inside
+4 - Locate SES.Web.Database database in the local server
+5 - Create a new Table called SoftwareUpdateRequests
+6 - Add all properties from (3) along with Id and Date (additional attributes)
+7 - Locate SES.Web.Data project, naviaget to Database/SESWebDatabaseModel.edmx and open it
+8 - Right-click in the Model View, click Update Model From Database
+9 - Select the newly added table from (5) and click finish
+10 - Right-click in SES.Web.Admin, and click "Rebuild"
+11 - Under SES.Web.Admin Controllers add a new Controller (for CRUD) operations
+12 - Select the newly added Entity from (9) & the DbContext and click finish
+13 - Test SES.Web.Admin locally
+14 - Add Saving mecanisme in SES.Web.Public under Conrollers->DownlaodController->SoftwareUpdates
+15 - Test Savinf process locally
+
+Notes:
+- Tasks should be done before you leave.
+- Questions / Google / Docs are allowed anytime.
+- Notify me in advance if you have other tasks coming from Peter/Yexu/Sofiane. 

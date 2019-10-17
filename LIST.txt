@@ -1,0 +1,12 @@
+1- You Create a database called SES.Publications.Database
+2- Publish Data-tier Application using the file called SES.Publications.Database located here S:\Temp-YouCanLoseItTonight\Fahmi (right click in the database and click Publish Data-tier Application...)
+3- Under SES.Web.Data add a new folder called "Publications"
+4- Create an ADO.Net under "Publications", let all properties as default values
+5- Create CRUD Operation in SES.Web.Admin
+6- Try to get all publications and display them in SES.Web.Public (https://sestech.com/en/Service/TechnicalPublications)
+7- Make necessary design enhancement
+
+
+5- Revised- Use the new tblPublication and create CRUD operations in SES.Web.Admin
+
+change these tables names to PublicationType and Publications respectively
